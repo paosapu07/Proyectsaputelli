@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "nombre": "Agua destilada",
+    "descripcion": "Agua purificada para uso en laboratorio",
+    "costo": 0.10,
+    "categoria": "Disolvente",
+    "inventario_disponible": 1000,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-12-31",
+    "minimo_sugerido": 200,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "HCl (Ácido Clorhídrico) 0.1N",
+    "descripcion": "Solución estandarizada de HCl",
+    "costo": 1.20,
+    "categoria": "Ácido",
+    "inventario_disponible": 500,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-06-30",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "NaOH (Hidróxido de Sodio) en escamas",
+    "descripcion": "Base fuerte, pureza ~98%",
+    "costo": 1.50,
+    "categoria": "Base",
+    "inventario_disponible": 200,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2024-12-31",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Etanol al 96%",
+    "descripcion": "Alcohol etílico de alta pureza",
+    "costo": 0.80,
+    "categoria": "Disolvente",
+    "inventario_disponible": 800,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-10-01",
+    "minimo_sugerido": 200,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Fenolftaleína",
+    "descripcion": "Indicador de pH en solución alcohólica",
+    "costo": 1.00,
+    "categoria": "Indicador",
+    "inventario_disponible": 50,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-01-01",
+    "minimo_sugerido": 10,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Sulfato de Cobre (CuSO4)",
+    "descripcion": "Sal de color azul usada en análisis cualitativo",
+    "costo": 2.10,
+    "categoria": "Sal",
+    "inventario_disponible": 250,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-08-15",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Nitrato de Plata (AgNO3)",
+    "descripcion": "Agente oxidante y para reacciones de precipitación",
+    "costo": 3.90,
+    "categoria": "Sal",
+    "inventario_disponible": 120,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-11-30",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Cloruro de Sodio (NaCl)",
+    "descripcion": "Sal de mesa, grado de laboratorio",
+    "costo": 0.50,
+    "categoria": "Sal",
+    "inventario_disponible": 500,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-05-01",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Bromuro de Potasio (KBr)",
+    "descripcion": "Sal usada en espectroscopia IR",
+    "costo": 2.50,
+    "categoria": "Sal",
+    "inventario_disponible": 150,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-31",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Permanganato de Potasio (KMnO4)",
+    "descripcion": "Oxidante fuerte usado en valoraciones",
+    "costo": 3.00,
+    "categoria": "Sal",
+    "inventario_disponible": 180,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-09-15",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Ácido Sulfúrico (H2SO4) 1N",
+    "descripcion": "Solución estándar de ácido sulfúrico",
+    "costo": 1.80,
+    "categoria": "Ácido",
+    "inventario_disponible": 300,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2026-01-10",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Ácido Acético (CH3COOH) 1M",
+    "descripcion": "Solución de ácido acético para valoraciones",
+    "costo": 1.10,
+    "categoria": "Ácido",
+    "inventario_disponible": 400,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-07-01",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Bicarbonato de Sodio (NaHCO3)",
+    "descripcion": "Polvo blanco, agente buffer",
+    "costo": 0.40,
+    "categoria": "Sal",
+    "inventario_disponible": 350,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-02-14",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Carbonato de Calcio (CaCO3)",
+    "descripcion": "Sólido blanco, usado en reacciones ácido-base",
+    "costo": 0.30,
+    "categoria": "Sal",
+    "inventario_disponible": 200,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-09-01",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Sulfato de Sodio (Na2SO4)",
+    "descripcion": "Sales de sodio, desecante común",
+    "costo": 0.75,
+    "categoria": "Sal",
+    "inventario_disponible": 250,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-11-10",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Azúcar (Sacarosa)",
+    "descripcion": "Sacarosa grado analítico",
+    "costo": 0.25,
+    "categoria": "Orgánico",
+    "inventario_disponible": 500,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-06-30",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Glucosa (D-Glucosa)",
+    "descripcion": "Azúcar simple usada en pruebas bioquímicas",
+    "costo": 0.70,
+    "categoria": "Orgánico",
+    "inventario_disponible": 300,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-01",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Éter Etílico (Dietil éter)",
+    "descripcion": "Solvente orgánico muy volátil",
+    "costo": 2.00,
+    "categoria": "Disolvente",
+    "inventario_disponible": 150,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-09-15",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Acetona (Propanona)",
+    "descripcion": "Solvente orgánico, disolvente universal",
+    "costo": 1.15,
+    "categoria": "Disolvente",
+    "inventario_disponible": 600,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2026-04-01",
+    "minimo_sugerido": 150,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Alcohol Isopropílico (Isopropanol)",
+    "descripcion": "Solvente y desinfectante",
+    "costo": 1.00,
+    "categoria": "Disolvente",
+    "inventario_disponible": 500,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-11-20",
+    "minimo_sugerido": 120,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "Ácido Nítrico (HNO3) 0.5N",
+    "descripcion": "Solución diluida de HNO3",
+    "costo": 1.60,
+    "categoria": "Ácido",
+    "inventario_disponible": 400,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-10-10",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Amoníaco (NH3) 10%",
+    "descripcion": "Solución de amoníaco en agua",
+    "costo": 1.30,
+    "categoria": "Base",
+    "inventario_disponible": 200,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2026-06-30",
+    "minimo_sugerido": 70,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "Agua Oxigenada (H2O2) 3%",
+    "descripcion": "Peróxido de hidrógeno para reacciones de oxidación",
+    "costo": 0.60,
+    "categoria": "Otros",
+    "inventario_disponible": 300,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-08-01",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Cloruro de Calcio (CaCl2)",
+    "descripcion": "Sal higroscópica usada como desecante",
+    "costo": 1.00,
+    "categoria": "Sal",
+    "inventario_disponible": 350,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-07-15",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "Hidróxido de Potasio (KOH) 1M",
+    "descripcion": "Solución de base fuerte para titulaciones",
+    "costo": 1.70,
+    "categoria": "Base",
+    "inventario_disponible": 250,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2026-03-10",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Ácido Bórico (H3BO3)",
+    "descripcion": "Ácido débil, usado en tampones",
+    "costo": 0.95,
+    "categoria": "Ácido",
+    "inventario_disponible": 150,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-31",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "Sulfato de Bario (BaSO4)",
+    "descripcion": "Compuesto insoluble, usado en pruebas de sulfatos",
+    "costo": 2.20,
+    "categoria": "Sal",
+    "inventario_disponible": 100,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-05-05",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "Sílice (SiO2)",
+    "descripcion": "Sólido blanco usado en cromatografía",
+    "costo": 2.50,
+    "categoria": "Otros",
+    "inventario_disponible": 120,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-01-01",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "Sulfato Ferroso (FeSO4)",
+    "descripcion": "Sal de hierro (II), usada en análisis cualitativo",
+    "costo": 2.10,
+    "categoria": "Sal",
+    "inventario_disponible": 80,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-09-20",
+    "minimo_sugerido": 20,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "Cloruro de Hierro (III) (FeCl3)",
+    "descripcion": "Sal férrica, reactivo para prueba de fenoles",
+    "costo": 2.30,
+    "categoria": "Sal",
+    "inventario_disponible": 90,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-11-01",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "nombre": "Ácido Fólico (Vitamina B9)",
+    "descripcion": "Compuesto orgánico, suplementación",
+    "costo": 3.00,
+    "categoria": "Orgánico",
+    "inventario_disponible": 70,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-10-15",
+    "minimo_sugerido": 20,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "nombre": "Sulfato de Zinc (ZnSO4)",
+    "descripcion": "Sal de zinc usada en análisis químicos",
+    "costo": 1.90,
+    "categoria": "Sal",
+    "inventario_disponible": 100,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-07-01",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "nombre": "Cloruro de Magnesio (MgCl2)",
+    "descripcion": "Sal utilizada en preparación de medios cultivos",
+    "costo": 1.10,
+    "categoria": "Sal",
+    "inventario_disponible": 120,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-01",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nombre": "Cloruro de Bario (BaCl2)",
+    "descripcion": "Sal tóxica, usada en test de sulfatos",
+    "costo": 2.40,
+    "categoria": "Sal",
+    "inventario_disponible": 60,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-03-05",
+    "minimo_sugerido": 20,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "nombre": "Yoduro de Potasio (KI)",
+    "descripcion": "Sal usada para reacciones de yodometría",
+    "costo": 2.00,
+    "categoria": "Sal",
+    "inventario_disponible": 70,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-04-10",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "nombre": "Ácido Tartárico",
+    "descripcion": "Ácido orgánico usado en química de alimentos",
+    "costo": 1.10,
+    "categoria": "Ácido",
+    "inventario_disponible": 150,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-02-20",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "nombre": "Hidróxido de Calcio (Ca(OH)2)",
+    "descripcion": "Base usada para preparación de lechada de cal",
+    "costo": 0.75,
+    "categoria": "Base",
+    "inventario_disponible": 220,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-10",
+    "minimo_sugerido": 60,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nombre": "Citrato de Sodio",
+    "descripcion": "Sal usada como buffer en sistemas biológicos",
+    "costo": 0.90,
+    "categoria": "Sal",
+    "inventario_disponible": 180,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-05-30",
+    "minimo_sugerido": 60,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "nombre": "Reactivo de Fehling (A y B)",
+    "descripcion": "Reactivo para identificación de azúcares reductores",
+    "costo": 2.50,
+    "categoria": "Indicador",
+    "inventario_disponible": 90,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-11-25",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "nombre": "Colorante Azul de Metileno",
+    "descripcion": "Indicador redox y colorante biológico",
+    "costo": 1.50,
+    "categoria": "Indicador",
+    "inventario_disponible": 100,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-09-10",
+    "minimo_sugerido": 20,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "nombre": "Agar-agar",
+    "descripcion": "Sólido para preparar medios de cultivo",
+    "costo": 1.20,
+    "categoria": "Otros",
+    "inventario_disponible": 80,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-03-01",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nombre": "Glicerina (Glicerol)",
+    "descripcion": "Líquido viscoso, humectante y solvente",
+    "costo": 0.80,
+    "categoria": "Orgánico",
+    "inventario_disponible": 300,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-08-30",
+    "minimo_sugerido": 80,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nombre": "Metanol (CH3OH)",
+    "descripcion": "Alcohol tóxico, usado como solvente",
+    "costo": 1.40,
+    "categoria": "Disolvente",
+    "inventario_disponible": 400,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2026-02-10",
+    "minimo_sugerido": 100,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "nombre": "Ácido Fórmico (HCOOH)",
+    "descripcion": "Ácido orgánico de baja masa molecular",
+    "costo": 1.25,
+    "categoria": "Ácido",
+    "inventario_disponible": 200,
+    "unidad_medida": "mL",
+    "fecha_caducidad": "2025-10-20",
+    "minimo_sugerido": 60,
+    "conversiones_posibles": [
+      {
+        "unidad": "L",
+        "factor": 0.001
+      },
+      {
+        "unidad": "uL",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "nombre": "Cloruro de Amonio (NH4Cl)",
+    "descripcion": "Sal usada en tampón amónico",
+    "costo": 0.90,
+    "categoria": "Sal",
+    "inventario_disponible": 220,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-01-15",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "nombre": "Nitrato de Potasio (KNO3)",
+    "descripcion": "Sal oxidante, usada en cinética de reacciones",
+    "costo": 1.60,
+    "categoria": "Sal",
+    "inventario_disponible": 150,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-12-05",
+    "minimo_sugerido": 50,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "nombre": "Sulfato de Aluminio (Al2(SO4)3)",
+    "descripcion": "Sal coagulante, usada en tratamiento de agua",
+    "costo": 1.70,
+    "categoria": "Sal",
+    "inventario_disponible": 90,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-11-28",
+    "minimo_sugerido": 30,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "Sulfato de Amonio ((NH4)2SO4)",
+    "descripcion": "Sal usada en precipitación de proteínas",
+    "costo": 1.25,
+    "categoria": "Sal",
+    "inventario_disponible": 120,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2025-09-25",
+    "minimo_sugerido": 40,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "Colorante Rojo de Congo",
+    "descripcion": "Indicador de pH y colorante para tejidos",
+    "costo": 1.80,
+    "categoria": "Indicador",
+    "inventario_disponible": 50,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-03-25",
+    "minimo_sugerido": 10,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "Sulfato de Magnesio (MgSO4)",
+    "descripcion": "Sal usada como desecante y en reacciones iónicas",
+    "costo": 0.85,
+    "categoria": "Sal",
+    "inventario_disponible": 300,
+    "unidad_medida": "g",
+    "fecha_caducidad": "2026-05-10",
+    "minimo_sugerido": 60,
+    "conversiones_posibles": [
+      {
+        "unidad": "kg",
+        "factor": 0.001
+      },
+      {
+        "unidad": "mg",
+        "factor": 1000
+      }
+    ]
+  }
+]
